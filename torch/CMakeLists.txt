@@ -26,6 +26,7 @@ include_directories(..)
 set(SRCS
   ft_ops.cc
   ../src/fastertransformer/kernels/layernorm_kernels.cu
+  ../src/fastertransformer/kernels/activation_kernels.cu
 )
 add_library(ft SHARED ${SRCS})
 
